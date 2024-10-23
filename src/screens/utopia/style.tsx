@@ -1,16 +1,23 @@
-import { StyleSheet } from 'react-native';
+// src/screens/Utopia/style.tsx
 
-const styles = StyleSheet.create({
+const styles = {
   container: {
-    flex: 1,
+    display: 'flex',
     justifyContent: 'center',
     alignItems: 'center',
-    backgroundColor: '#e0e0e0',
+    height: '100vh', // Full height of the viewport
+    backgroundColor: '#e0e0e0', // Example background color
+    padding: '20px', // Example padding
+  },
+  title: {
+    fontSize: '24px',
+    color: '#444', // Example text color
+    marginBottom: '10px',
   },
   text: {
-    fontSize: 24,
-    color: '#333',
+    fontSize: '16px',
+    color: '#888', // Example secondary text color
   },
-});
+};
 
 export default styles;

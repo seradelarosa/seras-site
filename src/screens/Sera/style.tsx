@@ -1,16 +1,23 @@
-import { StyleSheet } from 'react-native';
+// src/screens/Sera/style.tsx
 
-const styles = StyleSheet.create({
+const styles = {
   container: {
-    flex: 1,
+    display: 'flex',
     justifyContent: 'center',
     alignItems: 'center',
-    backgroundColor: '#f0f0f0',
+    height: '100vh', // Full height of the viewport
+    backgroundColor: '#f0f0f0', // Example background color
+    padding: '20px', // Example padding
+  },
+  title: {
+    fontSize: '24px',
+    color: '#333', // Example text color
+    marginBottom: '10px',
   },
   text: {
-    fontSize: 24,
-    color: '#333',
+    fontSize: '16px',
+    color: '#666', // Example secondary text color
   },
-});
+};
 
 export default styles;

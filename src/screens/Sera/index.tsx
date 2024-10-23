@@ -1,11 +1,12 @@
+// src/screens/Sera/index.tsx
 import React from 'react';
-import './style.tsx'; // Import your styles for this page
+import styles from './style';
 
-const seraPage: React.FC = () => {
+const SeraPage = () => {
   return (
-    <div className="sera-page">
-      <h1>Sera De La Rosa's Page</h1>
-      <p>Welcome to the Seradelarosa page!</p>
+    <div style={styles.container}>
+      <h1 style={styles.title}>Welcome to the Sera Page</h1>
+      <p style={styles.text}>This is some content for the Sera page.</p>
     </div>
   );
 };
