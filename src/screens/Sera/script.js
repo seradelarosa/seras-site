@@ -1,4 +1,4 @@
-<!-- smooth scroll to section anchors -->
+// <!-- smooth scroll to section anchors -->
     function scrollToSection(id) {
         const element = document.getElementById(id);
         if (element) {

@@ -2,7 +2,7 @@ import React from 'react';
 import { BrowserRouter as Router, Route, Routes, Navigate } from 'react-router-dom';
 import SeraPage from './screens/Sera/sera'; // Correct path
 import UtopiaPage from './screens/Utopia/utopia'; // Correct path
-import StorePage from './screens/Store/store'; // Correct path
+import ShopPage from './screens/Shop/shop'; // Correct path
 
 const App = () => {
   return (
@@ -10,7 +10,7 @@ const App = () => {
       <Routes>
         <Route path="/seradelarosa" element={<SeraPage />} />
         <Route path="/utopia" element={<UtopiaPage />} />
-        <Route path="/store" element={<StorePage />} />
+        <Route path="/store" element={<ShopPage />} />
       </Routes>
     </Router>
   );

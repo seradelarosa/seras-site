@@ -1,42 +1,35 @@
 import React from "react";
-import "./style.css"; // Import the corresponding CSS
-{/* <link rel="stylesheet" href="./style.css">
-<meta http-equiv="Content-Security-Policy"
-  content="default-src 'self'; img-src https://i.imgur.com; script-src https://cdn.jsdelivr.net 'self';"> */}
+import "./script";
+import "./style.css";
 
 
 const SeraPage = () => {
   return (
     <div className="sera-page">
 
-      <header id="top">
-    <h1>sophia de la rosa</h1>
+      <header>
+        <h1>sophia de la rosa</h1>
 
-    <!-- toggle switch -->
-    <label id="switchStyle" class="switch">
-      <input type="checkbox" id="toggle-switch">
-      <span class="slider"></span>
-    </label>
-    <p id="toggle-text"> day mode active </p>
+        <nav>
+          {/* <a href="#portfolio" onclick="scrollToSection('portfolio'); return false;"> </a>
+          <a href="#experience" onclick="scrollToSection('experience'); return false;"> </a> */}
+          <button>portfolio</button> 
+          <button>experience</button> 
+        </nav>
 
-    <nav>
-      <a href="#portfolio" onclick="scrollToSection('portfolio'); return false;"> <button>portfolio</button> </a>
-      <a href="#experience" onclick="scrollToSection('experience'); return false;"> <button>experience</button> </a>
-    </nav>
+      </header>
 
-  </header>
-
-  <div class="background">
-    <div id="aboutme" class="aboutmesection">
+  <div className="background">
+    <div id="aboutme" className="aboutmesection">
 
       <h2>about me:</h2>
 
-      <div class="wrap">
-        <img id="profilepic" src="https://i.imgur.com/DQ4lGot.jpeg" alt="Profile Picture">
+      <div className="wrap">
+        <img id="profilepic" src="https://i.imgur.com/DQ4lGot.jpeg" alt="Profile Picture"></img>
         <p id="profile-paragraph">Hi, my name is Sophia! By day, I'm a part-time Software Developer I at a small tech
-          startup in Atlanta, GA. By night, I'm Utopia, the Twitch streamer and gamer.</br>
+          startup in Atlanta, GA. By night, I'm Utopia, the Twitch streamer and gamer.</p>
 
-          </br>My hobbies and skills all revolve around technology and work hand-in-hand together. From video editing,
+          <p>My hobbies and skills all revolve around technology and work hand-in-hand together. From video editing,
           to Remote Workflow Technology Leader; from computer building to coding; from video game player, to debugger
           and tester, to Blender and Unity asset design; from Virtual Reality to AI development pioneering. Everything
           I've been doing has led up to this moment and I'm so ready to get started.</p>
@@ -44,8 +37,8 @@ const SeraPage = () => {
     </div>
   </div>
 
-  <div class="background">
-    <div id="portfolio" class="portfoliosection">
+  <div className="background">
+    <div id="portfolio" className="portfoliosection">
       <h2>portfolio</h2>
 
       <h3>Dungeons & Devs v.2</h3>
@@ -148,8 +141,8 @@ const SeraPage = () => {
     </div>
   </div>
 
-  <div class="background">
-    <div id="experience" class="experiencesection">
+  <div className="background">
+    <div id="experience" className="experiencesection">
 
 
       <h2> experience </h2>
@@ -202,9 +195,9 @@ const SeraPage = () => {
     </div>
   </div>
 
-  <a href="#top" onclick="scrollToSection('top'); return false;">
-    <button class="backtotop">^back to top^</button>
-  </a>
+  {/* <a href="#top" onclick="scrollToSection('top'); return false;">
+    <button className="backtotop">^back to top^</button>
+  </a> */}
 
 
 
