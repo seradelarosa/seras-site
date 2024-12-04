@@ -1,7 +1,8 @@
 import React from 'react';
 import { BrowserRouter as Router, Route, Routes, Navigate } from 'react-router-dom';
-import SeraPage from './screens/Sera'; // Correct path
-import UtopiaPage from './screens/Utopia'; // Correct path
+import SeraPage from './screens/Sera/sera'; // Correct path
+import UtopiaPage from './screens/Utopia/utopia'; // Correct path
+import StorePage from './screens/Store/store'; // Correct path
 
 const App = () => {
   return (
@@ -9,23 +10,10 @@ const App = () => {
       <Routes>
         <Route path="/seradelarosa" element={<SeraPage />} />
         <Route path="/utopia" element={<UtopiaPage />} />
-        {/* Optional: Redirect from the root URL to the Sera page */}
-        <Route path="/" element={<Navigate to="/seradelarosa" replace />} />
+        <Route path="/store" element={<StorePage />} />
       </Routes>
     </Router>
   );
 };
 
 export default App;
-
-const x = 2; 
-let y = 4; 
-
-function update(arg) { 
-  return Math.random() + y * arg; 
-} 
-y = 2; 
-
-?; 
-
-const result = update(x);

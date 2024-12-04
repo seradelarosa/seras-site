@@ -1,3 +1,6 @@
+import React from "react";
+import "./style.css";
+
 <!DOCTYPE html>
 <html lang="en">
 
