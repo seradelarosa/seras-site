@@ -1,0 +1,164 @@
+ html {
+   scroll-behavior: smooth;
+ }
+
+ h1 {
+   padding: 15px;
+ }
+
+ header {
+   background: pink;
+   opacity: 85%;
+   border: 7px dashed white;
+ }
+
+ header button {
+   color: black;
+   background-color: white;
+   border-radius: 5px;
+   margin: 2px;
+ }
+
+ h1,
+ h2 {
+   font-family: "Press Start 2P", system-ui;
+   font-weight: 300;
+   font-style: smaller;
+ }
+
+ h3 {
+   font-size: x-large;
+ }
+
+ nav {
+   gap: 10px;
+   text-align: right;
+   padding: 10px;
+ }
+
+ body {
+   background: url("https:i.imgur.com/k1xBCRf.png");
+   background-size: cover;
+   background-position: center;
+   color: black;
+   font-family: helvetica;
+ }
+
+ .wrap {
+   display: flex;
+   gap: 10px;
+ }
+
+ .background {
+   background: rgba(255, 255, 255, 0.5);
+ }
+
+ #profilepic {
+   position: relative;
+   width: 30%;
+   object-fit: cover;
+   border-radius: 3px;
+ }
+
+ p {
+   font-size: 19px;
+ }
+
+ .portfoliosection button {
+   float: right;
+   border-radius: 5px;
+   margin: 2px;
+   background-color: pink;
+ }
+
+ .experiencesection {
+   border: 6px dashed white;
+   padding: 20px;
+ }
+
+ .experiencesection button {
+   border-radius: 5px;
+   background-color: pink;
+ }
+
+ .aboutmesection {
+ margin: 20px;
+ padding-top: 5px;
+ }
+
+ .portfoliosection {
+   margin: 20px;
+   padding-top: 5px;
+   padding-bottom: 40px;
+ }
+
+ #resume {
+   float: right;
+   margin-top: -25px;
+ }
+
+ .backtotop {
+   border-radius: 5px;
+   display: flex;
+   float: right;
+   background-color: pink;
+   margin: 25px;
+ }
+
+ /* Container for the toggle switch */
+ .switch {
+ position: relative;
+ display: inline-block;
+ width: 60px; /* Width of the switch */
+ height: 34px; /* Height of the switch */
+ margin-left: 20px; /* Space from the content */
+ }
+
+ /* Hide the default checkbox */
+ .switch input {
+ opacity: 0;
+ width: 0;
+ height: 0;
+ }
+
+ /* Slider styling */
+ .slider {
+ position: absolute;
+ cursor: pointer;
+ top: 0;
+ left: 0;
+ right: 0;
+ bottom: 0;
+ background-color: #ccc;
+ transition: .4s;
+ border-radius: 34px; 
+ }
+
+ /* Slider knob styling */
+ .slider:before {
+ position: absolute;
+ content: "";
+ height: 26px; 
+ width: 26px; 
+ border-radius: 50%;
+ left: 4px; 
+ bottom: 4px;
+ background-color: white;
+ transition: .4s;
+ }
+
+ /* When the checkbox is checked, slide the knob to the right and change the background color */
+ input:checked + .slider {
+ background-color: #2196F3; /* Background color when checked */
+ }
+
+ /* Move the slider knob to the right when checked */
+ input:checked + .slider:before {
+ transform: translateX(26px);
+ }
+
+ #toggle-text {
+ font-size: small;
+ padding: 5px;
+ }
+

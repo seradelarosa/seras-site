@@ -1,0 +1,153 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #fefefe;
+    color: #333;
+}
+.header {
+    background-color: #ffccff;
+    padding: 15px; /* Increased padding for more height */
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center; /* Centering title */
+    height: 80px; /* Increased height for more space */
+}
+.header .title {
+    font-family: 'Swanky and Moo Moo', cursive;
+    font-size: 60px;
+    color: #ff66b2;
+    margin: 0;
+    text-align: center;
+    position: absolute; /* Centering with absolute positioning */
+    left: 50%;
+    transform: translateX(-50%);
+}
+.hamburger {
+    cursor: pointer;
+    font-size: 24px;
+    display: inline-block;
+    padding: 10px;
+    position: absolute; /* Keeping hamburger in the top left corner */
+    left: 10px;
+    top: 50%; /* Center vertically within header */
+    transform: translateY(-50%); /* Center vertically within header */
+    z-index: 10; /* Ensure hamburger is on top */
+}
+.menu {
+    display: none;
+    position: absolute;
+    top: 100%; /* Position below the header */
+    left: 0;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+    z-index: 20; /* Ensure menu is above other content */
+}
+.menu a {
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    color: #333;
+}
+.menu a:hover {
+    background-color: #f0f0f0;
+}
+.container {
+    padding: 20px;
+}
+.category {
+    margin-bottom: 40px;
+}
+.category h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/*gallery*/
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.gallery .item {
+    width: calc(33.333% - 20px);
+    margin: 10px;
+    text-align: center;
+    position: relative;
+}
+.gallery img {
+    max-width: 100%;
+    height: auto;
+}
+.gallery .star {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+/*favorites*/
+.favorites {
+    margin-top: 40px;
+}
+.favorites h2 {
+    margin-bottom: 20px;
+}
+.favorite-item {
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+}
+.favorite-item img {
+    max-width: 100px;
+    margin-right: 10px;
+}
+.favorite-item .description {
+    flex: 1;
+}
+.menu.show {
+    display: block;
+}
+.section-link {
+    display: block;
+    text-align: center;
+    margin: 10px 0;
+    text-decoration: none;
+    color: #ff66b2;
+    font-weight: bold;
+}
+.section-link:hover {
+    color: #ff3399;
+}
+
+.hidden {
+    display: none;
+}
+
+.item {
+  border: 6px dashed pink
+}
+
+.description {
+  font-family: "Mulish", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+.subtitle {
+  font-family: "Mulish", sans-serif;
+    font-size: 25px;
+    color: #ff66b2;
+    margin: 0;
+    text-align: center;
+    left: 50%;
+    margin-top: 80px;
+    padding-bottom: 25px;
+}
