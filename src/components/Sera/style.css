@@ -2,8 +2,57 @@
    scroll-behavior: smooth;
  }
 
+ .margin {
+  margin: 8%;
+ }
+
+ .section {
+  padding-bottom: 3%;
+ }
+
+ .topic {
+  border: 6px dashed white;
+  padding-right: 4%;
+  padding-left: 4%;
+  padding-top: 2%;
+  padding-bottom: 7%;
+  margin-bottom: 10%;
+ }
+
+ /* .aboutmesection {
+  padding-right: 4%;
+  padding-left: 4%;
+  padding-top: 2%;
+  padding-bottom: 7%;
+ }
+
+ .portfoliosection {
+  border: 6px dashed white;
+   /* margin: 20px; */
+   /* padding-right: 4%;
+   padding-left: 4%;
+   padding-top: 2%;
+   padding-bottom: 7%;
+ } */
+
+ .experiencesection {
+  border: 6px dashed white;
+  padding: 20px;
+} */
+
  h1 {
    padding: 15px;
+ }
+
+ h1,
+ h2 {
+   font-family: "Press Start 2P", sans-serif;
+   /* font-weight: 100; */
+   font-style: smaller;
+ }
+
+ h3 {
+   font-size: x-large;
  }
 
  header {
@@ -19,17 +68,6 @@
    margin: 2px;
  }
 
- h1,
- h2 {
-   font-family: "Press Start 2P", system-ui;
-   font-weight: 300;
-   font-style: smaller;
- }
-
- h3 {
-   font-size: x-large;
- }
-
  nav {
    gap: 10px;
    text-align: right;
@@ -37,16 +75,21 @@
  }
 
  body {
-   background: url("https:i.imgur.com/k1xBCRf.png");
+   background: url("https://imgur.com/QHzZiEF");
    background-size: cover;
    background-position: center;
    color: black;
    font-family: helvetica;
  }
 
- .wrap {
+ .inline {
+  display: flex;
+  gap: 10px;
+}
+
+ .stack {
    display: flex;
-   gap: 10px;
+   flex-wrap: wrap;
  }
 
  .background {
@@ -71,25 +114,9 @@
    background-color: pink;
  }
 
- .experiencesection {
-   border: 6px dashed white;
-   padding: 20px;
- }
-
  .experiencesection button {
    border-radius: 5px;
    background-color: pink;
- }
-
- .aboutmesection {
- margin: 20px;
- padding-top: 5px;
- }
-
- .portfoliosection {
-   margin: 20px;
-   padding-top: 5px;
-   padding-bottom: 40px;
  }
 
  #resume {

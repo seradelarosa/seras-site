@@ -2,7 +2,7 @@ import React from "react";
 import "./style.css";
 
 const UtopiaPage = (): JSX.Element => {
-  return <div>THIS IS MY SHOP!</div>;
+  return <div>utopiastreemz bitches</div>;
 
 };
   
