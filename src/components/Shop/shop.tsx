@@ -1,4 +1,5 @@
 import React from "react";
+import "./script";
 import "./style.css";
 
 const ShopPage: React.FC = () => {

@@ -60,10 +60,10 @@ section.classList.remove('hidden'); // Show all sections
 }
 
 // Toggle menu visibility
-function toggleMenu() {
-const menu = document.querySelector('.menu');
-menu.classList.toggle('show');
-}
+// function toggleMenu() {
+// const menu = document.querySelector('.menu');
+// menu.classList.toggle('show');
+// }
 
 // Close the menu
 function closeMenu() {
@@ -94,21 +94,21 @@ showSection(sectionId); // Show only the selected section
 });
 });
 
-// Function to show a specific section
-function showSection(sectionId) {
-document.querySelectorAll('.category, .favorites').forEach(section => {
-if (section.id === sectionId) {
-    section.classList.remove('hidden');
-    section.scrollIntoView({ behavior: 'smooth', block: 'start' }); // Ensure the section is at the top
-} else {
-    section.classList.add('hidden');
-}
-});
-}
+// // Function to show a specific section
+// function showSection(sectionId) {
+// document.querySelectorAll('.category, .favorites').forEach(section => {
+// if (section.id === sectionId) {
+//     section.classList.remove('hidden');
+//     section.scrollIntoView({ behavior: 'smooth', block: 'start' }); // Ensure the section is at the top
+// } else {
+//     section.classList.add('hidden');
+// }
+// });
+// }
 
 // Function to show all sections
-function showAllSections() {
-document.querySelectorAll('.category, .favorites').forEach(section => {
-section.classList.remove('hidden');
-});
-}
+// function showAllSections() {
+// document.querySelectorAll('.category, .favorites').forEach(section => {
+// section.classList.remove('hidden');
+// });
+// }
