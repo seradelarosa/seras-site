@@ -1,11 +1,13 @@
 import React from "react";
 import "./style.css";
 
-const TestComponent = (): JSX.Element => {
-  return <div>Hello, JSX!</div>;
-};
+const UtopiaPage = (): JSX.Element => {
+  return <div>THIS IS MY SHOP!</div>;
 
-export default TestComponent;
+};
+  
+
+export default UtopiaPage;
 
 
 // function UtopiaPage () {
