@@ -1,5 +1,4 @@
 import React from "react";
-import "./script";
 import "./style.css";
 
 const TestComponent = (): JSX.Element => {

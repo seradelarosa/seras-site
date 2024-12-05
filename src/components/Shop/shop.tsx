@@ -1,5 +1,5 @@
 import React from "react";
-import "./script";
+import ".";
 import "./style.css";
 
 const ShopPage: React.FC = () => {
