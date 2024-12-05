@@ -1,7 +1,7 @@
 import React from "react";
 import "./style.css";
 
-const StorePage = () => {
+const ShopPage: React.FC = () => {
   return (
     <div>
       {/* Header Section */}
@@ -148,4 +148,4 @@ const StorePage = () => {
   );
 };
 
-export default StorePage;
+export default ShopPage;

@@ -3,7 +3,7 @@ import "./script";
 import "./style.css";
 
 
-const SeraPage = () => {
+const SeraPage: React.FC = () => {
   return (
     <div className="sera-page">
 

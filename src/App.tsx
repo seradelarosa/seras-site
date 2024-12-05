@@ -1,10 +1,10 @@
 import React from 'react';
 import { BrowserRouter as Router, Route, Routes, Navigate } from 'react-router-dom';
-import SeraPage from './screens/Sera/sera'; // Correct path
-import UtopiaPage from './screens/Utopia/utopia'; // Correct path
-import ShopPage from './screens/Shop/shop'; // Correct path
+import SeraPage from './components/Sera/sera'; // Correct path
+import UtopiaPage from './components/Utopia/utopia'; // Correct path
+import ShopPage from './components/Shop/shop'; // Correct path
 
-const App = () => {
+const App: React.FC = () => {
   return (
     <Router>
       <Routes>
