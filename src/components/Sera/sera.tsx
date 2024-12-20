@@ -1,5 +1,6 @@
 import React from "react";
 import "./style.css";
+import Timeline from '../Timeline/timeline';
 
 const SeraPage = (): JSX.Element => {
   return (
@@ -8,7 +9,7 @@ const SeraPage = (): JSX.Element => {
         <div className="page-margins">
 
           <header>
-            <h1 className="greeting">Welcome in! Hang out for a while.</h1>
+            <h1 className="greeting">Hi! I'm Sera.</h1>
           </header>
 
           <div className="background">
@@ -16,10 +17,8 @@ const SeraPage = (): JSX.Element => {
 
               <div className="inline">
                 <img id="profilepic" src="https://i.imgur.com/DQ4lGot.jpeg" alt="Profile Picture"></img>
-                <div className="stack">
-                  <h2>Hi, I'm Sera.</h2>
-
-                  <p >Hi, my name is Sophia! By day, I'm a part-time Software Developer I at a small tech
+                <div>
+                  <p >Hi, my name is Sera! By day, I'm a part-time Software Developer I at a small tech
                     startup in Atlanta, GA. By night, I'm Utopia, the Twitch streamer and gamer.<br />
                     <br /> My hobbies and skills all revolve around technology and work hand-in-hand together. From video editing,
                     to Remote Workflow Technology Leader; from computer building to coding; from video game player, to debugger
@@ -69,7 +68,7 @@ const SeraPage = (): JSX.Element => {
           </div>
 
 
-          <div className="background">
+          <div className="background flexObject">
             <div id="experience" className="topic">
 
 
@@ -140,7 +139,7 @@ const SeraPage = (): JSX.Element => {
                 </div>
 
                 <h3 className="divider">Progressive Web Application Text Editor</h3>
-                <div className="inline">
+                <div className="inline flexObject">
                 <p>This is a single page text editor application that runs in the browser and meets the PWA criteria. It features
                   data persistence techniques that serve as redundancy in case one of the options is not supported by the browser.
                   The application also functions offline.</p>
@@ -151,7 +150,7 @@ const SeraPage = (): JSX.Element => {
                 </div>
 
                 <h3 className="divider">NoSQL Social Networking App</h3>
-                <div className="inline">
+                <div className="inline flexObject">
                 <p>This is an API for a social network web application where users can share their thoughts, react to friends
                   thoughts, and create a friend list. It uses Express.js for routing, a MongoDB database, the Mongoose ODM, and
                   the native JavaScript Date object to format timestamps.</p>
@@ -162,7 +161,7 @@ const SeraPage = (): JSX.Element => {
                 </div>
 
                 <h3 className="divider"> Dungeons & Devs v.1</h3>
-                <div className="inline">
+                <div className="inline flexObject">
                 <p>Dungeons & Devs is a turn-based battle game. The user chooses from a character list, each with different
                   strengths, and battles a boss using cards that boost various character stats.</p>
                   <div className="stack">
@@ -172,7 +171,7 @@ const SeraPage = (): JSX.Element => {
                 </div>
 
                 <h3 className="divider">Object-relational mapping (ORM) E-Commerce back-end</h3>
-                <div className="inline">
+                <div className="inline flexObject">
                 <p>Use this CLI application to manage your internet retail company's database and easily view all or individual
                   categories, products and tags, create new ones or delete them. This e-commerce site back end uses an Express.js
                   API and Sequelize to interact with a MySQL database.</p>
@@ -183,7 +182,7 @@ const SeraPage = (): JSX.Element => {
                 </div>
 
                 <h3 className="divider">Express.js Note Taker</h3>
-                <div className="inline">
+                <div className="inline flexObject">
                 <p>This Note Taker application can be used to write and save notes using an Express.js back end and will save and
                   retrieve note data from a JSON file. Clone the repository and install Node. Run "npm i" to install the
                   dependencies and then "npm start" to run the server. This server runs on port 5000. View the page by typing
@@ -205,7 +204,7 @@ const SeraPage = (): JSX.Element => {
                 </div>
 
                 <h3 className="divider">Music Discovery App</h3>
-                <div className="inline">
+                <div className="inline flexObject">
                 <p>IMDA is an international music discovery app. It utilizes Spotify's API to search for songs by country and
                   genre, which the user is then able to favorite and view in their favorites list on their profile page.</p>
                   <div className="stack">
@@ -215,7 +214,7 @@ const SeraPage = (): JSX.Element => {
                 </div>
 
                 <h3 className="divider"> Day Planner using Third-Party APIs </h3>
-                <div className="inline">
+                <div className="inline flexObject">
                 <p>Use this simple planner to schedule your day by filling in tasks into the hour timeblocks. The date is listed at
                   the top of the page and will always be correct. Hitting the save button after writing in the textbox will save
                   your input, even on refreshing the page. Hour blocks are color coded based on the current time, which updates
@@ -228,7 +227,7 @@ const SeraPage = (): JSX.Element => {
                 </div>
 
                 <h3 className="divider"> Web API Code Quiz </h3>
-                <div className="inline">
+                <div className="inline flexObject">
                 <p>This quiz displays one question at a time using a function to replace the main content with question items in an
                   array. Points are tallied and your score is shown at the end. You can input your initials and the initials and
                   score are added to a highscore board from local storage. A timer starts at the beginning of the quiz, and when
@@ -240,7 +239,7 @@ const SeraPage = (): JSX.Element => {
                 </div>
 
                 <h3 className="divider"> JavaScript Password Generator </h3>
-                <div className="inline">
+                <div className="inline flexObject">
                 <p> This generator uses a function to generate a random number which is used to select characters in dataset
                   strings. Each dataset string is only included if the user confirms the criteria. The new randomized password is
                   then returned to the textbox on the page.</p>
@@ -254,47 +253,10 @@ const SeraPage = (): JSX.Element => {
             </div>
           </div>
 
-          <div className="timeline">
-  
-  {/* <div className="timeline__job timeline__job--one"></div>
-  <div className="timeline__job timeline__job--two"></div>
-  <div className="timeline__job timeline__job--three"></div> */}
-
- 
-  <div className="timeline_component">
-    <div className="timeline_date_right">November 2024</div>
-  </div>
-  <div className="timeline_middle">
-    <div className="timeline_point"></div>
-  </div>
-  <div className="timeline_component timeline_component_bg">
-    <h3 className="timeline_title">Started AI training at Outlier AI</h3>
-    <p className="timeline_paragraph">Began working at Company A.</p>
-  </div>
-
-  <div className="timeline_component">
-    <div className="timeline_date_right">June 15, 2023</div>
-  </div>
-  <div className="timeline_middle">
-    <div className="timeline_point"></div>
-  </div>
-  <div className="timeline_component timeline_component_bg">
-    <h3 className="timeline_title">Started Job 2</h3>
-    <p className="timeline_paragraph">Joined Company B as a Developer.</p>
-  </div>
-
-  <div className="timeline_component">
-    <div className="timeline_date_right">November 1, 2023</div>
-  </div>
-  <div className="timeline_middle">
-    <div className="timeline_point"></div>
-  </div>
-  <div className="timeline_component timeline_component_bg">
-    <h3 className="timeline_title">Started Job 3</h3>
-    <p className="timeline_paragraph">Began part-time work at Company C.</p>
-  </div>
-</div>
-
+          <div>
+      <h1>My Timeline</h1>
+      <Timeline />
+    </div>
 
 
 
