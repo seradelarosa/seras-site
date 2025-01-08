@@ -90,7 +90,7 @@ const Timeline = () => {
                 </div>
 
 {/* CNN */}
-            <div className="left-column date">February 2022</div>
+            <div className="left-column date">February 2024</div>
 
             <div className="middle-column">
             <div className="line line-pink"></div>
@@ -112,7 +112,7 @@ const Timeline = () => {
                 </div>
 
             {/* CNN */}
-            <div className="left-column date">January 2022</div>
+            <div className="left-column date">January 2024</div>
 
             <div className="middle-column">
                 <div className="bottom-cap">
@@ -135,7 +135,7 @@ const Timeline = () => {
                 </div>
 
             {/* CNN */}
-            <div className="left-column date">November 2021</div>
+            <div className="left-column date">November 2022</div>
 
             <div className="middle-column">
                 <div className="bottom-cap">
@@ -156,7 +156,7 @@ const Timeline = () => {
             </div>
 
             {/* Georgia Tech end*/}
-            <div className="left-column date">October 2021</div>
+            <div className="left-column date">October 2022</div>
 
             <div className="middle-column">
             <div className="top-cap">
@@ -183,7 +183,7 @@ const Timeline = () => {
             </div>
 
             {/* Georgia Tech start*/}
-            <div className="left-column date">April 2021</div>
+            <div className="left-column date">April 2022</div>
 
             <div className="middle-column">
                 <div className="bottom-cap">

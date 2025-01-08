@@ -21,6 +21,14 @@
   z-index: -1;
 } */
 
+.right {
+  display: flex;
+   flex-wrap: wrap;
+   align-items: right;
+   justify-content: flex-end;
+   border:rgba(22, 22, 54, 0.609);
+}
+
  body {
    background: url("https://i.imgur.com/90jPp8I.jpeg") !important;
    background-size: cover !important;
@@ -41,25 +49,39 @@
   margin: 0;
  }
 
- h1 {
+ .h1 {
   font-family: "Unna", serif;
   font-size: 250%;
   font-weight: 400;
   font-style: normal;
+  line-height: 1;
 }
 
-h2 {
+.h2 {
   font-family: "Unna", serif;
   font-size: 200%;
   font-weight: 400;
   font-style: normal;
+  line-height: 1;
+  padding-top: 15px;
+  padding-bottom: 5px;
 }
 
-h3 {
+.h3 {
   font-family: "Unna", serif;
-  font-size: 150%;
+  font-size: 140%;
   font-weight: 400;
   font-style: normal;
+  line-height: 0;
+  padding-top: 25px;
+}
+
+.h4 {
+  font-family: "Unna", serif;
+  font-size: 110%;
+  font-weight: 500;
+  font-style: oblique;
+  line-height: 0;
 }
 
 p {
@@ -67,6 +89,9 @@ p {
   font-size: 100%;
   font-weight: 400;
   font-style: normal;
+  line-height: 0;
+  padding-bottom: 5px;
+  padding-top: 3px;
 }
 
  nav {

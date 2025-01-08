@@ -155,9 +155,23 @@
     font-weight: bold;
 }
 
+h1, h2, h3, h4 {
+    font-family: "Unna", serif;
+}
+
 p {
+    font-family: "Unna", serif;
     line-height: 1.5;
 }
+
+/* h1, h2, h3, h4 {
+    margin: 0;
+    padding: 0;
+    font-size: inherit;
+    font-weight: normal;
+    line-height: normal;
+    color: inherit;
+  }   */
 
 /* responsiveness */
 
