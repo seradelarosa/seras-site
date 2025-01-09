@@ -27,6 +27,7 @@
    align-items: right;
    justify-content: flex-end;
    border:rgba(22, 22, 54, 0.609);
+   text-decoration: none;
 }
 
  body {
@@ -49,52 +50,58 @@
   margin: 0;
  }
 
- .h1 {
+ h1, h2, h3, h4, p {
   font-family: "Unna", serif;
+  font-weight: 400;
+  font-style: normal;
+ }
+
+h1 {
   font-size: 250%;
-  font-weight: 400;
-  font-style: normal;
-  line-height: 1;
 }
 
-.h2 {
-  font-family: "Unna", serif;
+h2 {
   font-size: 200%;
-  font-weight: 400;
-  font-style: normal;
-  line-height: 1;
-  padding-top: 15px;
-  padding-bottom: 5px;
 }
 
-.h3 {
-  font-family: "Unna", serif;
+h3 {
   font-size: 140%;
-  font-weight: 400;
-  font-style: normal;
-  line-height: 0;
-  padding-top: 25px;
 }
 
-.h4 {
-  font-family: "Unna", serif;
+h4 {
   font-size: 110%;
-  font-weight: 500;
-  font-style: oblique;
-  line-height: 0;
 }
 
 p {
- font-family: "Unna", serif;
-  font-size: 100%;
-  font-weight: 400;
-  font-style: normal;
-  line-height: 0;
-  padding-bottom: 5px;
-  padding-top: 3px;
+  font-size: 105%;
 }
 
- nav {
+#resume-section h1 {
+  line-height: 1;
+}
+
+#resume-section h2 {
+  line-height: 1;
+  padding-bottom: 15px;
+}
+
+#resume-section h3 {
+  line-height: 0;
+  padding-top: 15px;
+}
+
+#resume-section h4 {
+  line-height: 0;
+  font-style: oblique;
+  padding-bottom: 10px;
+}
+
+#resume-section p {
+  line-height: 1.3;
+  padding-bottom: 10px;
+}
+
+nav {
   gap: 10px;
   text-align: right;
   padding: 10px;
@@ -131,6 +138,12 @@ p {
    margin-top: 5%;
  }
 
+ .flexObject {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+ }
+
  .inline {
    display: flex;
    align-items: center;
@@ -143,6 +156,24 @@ p {
    align-items: right;
    justify-content: flex-end;
  }
+
+ .two-columns {
+  display: grid;
+  grid-template-columns: 1fr 1fr; /* Two columns of equal width */
+  gap: 16px; /* Optional: Adds space between columns */
+}
+
+.three-columns {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr; /* Two columns of equal width */
+  gap: 16px; /* Optional: Adds space between columns */
+}
+
+.four-columns {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr; /* Two columns of equal width */
+  gap: 16px; /* Optional: Adds space between columns */
+}
 
  #resume {
    float: right;

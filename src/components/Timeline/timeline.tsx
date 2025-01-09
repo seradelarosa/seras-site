@@ -23,14 +23,25 @@ const Timeline = () => {
                 </div>
             </div>
 
+            <div className="sidebyside">
+                <div className="timeline-item">
+                    <h3 className=".title">Left CNN, BrainRain Solutions and Outlier</h3>
+                </div>
+                <div className="timeline-item">
+                    <h3 className=".title">Started Software Engineering program at Adobe</h3>
+                </div>
+            </div>
+
             {/* Outlier */}
-            <div className="left-column date">December, 2024</div>
+            <div className="left-column date">December 2024</div>
+
+            
 
             <div className="middle-column">
-                <div className="bottom-cap">
-                    <div className="line line-pink">
-                        <div className="marker pink"></div>
-                    </div>
+            <div className="bottom-cap">
+                <div className="line line-pink">
+                    <div className="marker pink"></div>
+                </div>
                 </div>
                 <div className="line line-purple">
                     <div className="marker purple"></div>
@@ -201,7 +212,6 @@ const Timeline = () => {
             <div className="sidebyside">
                 <div className="timeline-item">
                     <h3 className=".title">Started Full Stack Flex Web Development certification at Georgia Tech</h3>
-                    <p>Here's a sentence.</p>
                 </div>
                 <div className="timeline-item">
                     <h3 className=".title">Joined StarTech CNN development team shadowing back-end</h3>
@@ -252,7 +262,7 @@ const Timeline = () => {
             </div>
 
             {/* CNN */}
-            <div className="left-column date">May 2019</div>
+            <div className="left-column date">January 2020</div>
 
             <div className="middle-column">
                 <div className="line line-blue">
@@ -268,7 +278,7 @@ const Timeline = () => {
             </div>
 
             {/* CNN */}
-            <div className="left-column date">May 2019</div>
+            <div className="left-column date">2019</div>
 
             <div className="middle-column">
                 <div className="line line-blue">
