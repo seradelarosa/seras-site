@@ -2,14 +2,14 @@ import React from "react";
 import "./style.css";
 import Timeline from '../Timeline/timeline';
 
-const SeraPage = (): JSX.Element => {
+const SophiaPage = (): JSX.Element => {
   return (
     <div className="sera-page">
       <body>
         <div className="page-margins">
 
           <header>
-            <h1 className="greeting">Hi! I'm Sera.</h1>
+            <h1 className="greeting">Hi! I'm Sophia.</h1>
           </header>
 
           <div className="background">
@@ -18,7 +18,7 @@ const SeraPage = (): JSX.Element => {
               <div className="inline">
                 <img id="profilepic" src="https://i.imgur.com/DQ4lGot.jpeg" alt="Profile Picture"></img>
                 <div>
-                  <p >Hi, my name is Sera! I'm a third year Software Engineer spending Spring 2025 sharpening my skills at the Adobe Digital Academy Software Engineering program on a scholarship. <br />
+                <p >Hi, my name is Sophia! I'm a third year Software Engineer spending Spring 2025 sharpening my skills at the Adobe Digital Academy Software Engineering program on a scholarship. <br />
                     <br /> All of my hobbies and skills revolve around technology and work hand-in-hand together. From video editing,
                     to leading CNN's Remote Workflow Technology team; from computer building to hardware and software optimization to front-end and back-end software engineering; from video game streamer, to debugger
                     and tester, to Blender and Unity game asset design; from Virtual Reality to AI development pioneering. <br />
@@ -254,7 +254,6 @@ const SeraPage = (): JSX.Element => {
                   &#8226; Sets and trees </p>
                   </div>
                 
-                
                 <h3> Georgia Institute of Technology, 2021 </h3>
                 <h4> Full Stack Flex Web Development</h4>
                 <div className="three-columns">
@@ -305,7 +304,7 @@ const SeraPage = (): JSX.Element => {
                   &#8226; Android Virtual Devices <br />
                   &#8226; QA Engineering <br />
 
-                  <a className="right" href="/files/seraldelarosa.pdf" download="Sera L. De La Rosa.pdf">
+                  <a className="right" href="/files/sophialdelarosa.pdf" download="Sophia L. De La Rosa.pdf">
                     <button className="button-56" role="button">download</button>
                   </a>
 
@@ -337,4 +336,4 @@ const SeraPage = (): JSX.Element => {
   );
 };
 
-export default SeraPage;
+export default SophiaPage;

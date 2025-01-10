@@ -4,7 +4,7 @@ import '../Timeline/timeline.css'; // Ensure the CSS file is linked properly
 const Timeline = () => {
     return (
         <div className="timeline">
-            <div className="left-column date">Present</div>
+            <div className="left-column date">January 2025</div>
 
             <div className="middle-column">
                 <div className="top-cap">
@@ -35,8 +35,6 @@ const Timeline = () => {
             {/* Outlier */}
             <div className="left-column date">December 2024</div>
 
-            
-
             <div className="middle-column">
             <div className="bottom-cap">
                 <div className="line line-pink">
@@ -55,7 +53,10 @@ const Timeline = () => {
 
             <div className="timeline-item">
                 <h3 className=".title">Joined Outlier as AI Coding Expert</h3>
-                <p>Here's a sentence.</p>
+                <p>Training generative AI models in software engineering and machine learning. <br />
+                Teaching LLMs to produce efficient code following best practices. <br />
+                Creating original prompts for AI models. <br />
+                Editing AI-generated responses to improve accuracy.</p>
             </div>
 
             {/* Brain Rain */}
@@ -75,8 +76,12 @@ const Timeline = () => {
             </div>
 
             <div className="timeline-item">
-                <h3 className=".title">Joined Brain Rain Solutions as Software Developer I</h3>
-                <p>Here's a sentence.</p>
+                <h3 className=".title">Joined BrainRain Solutions as Software Developer I</h3>
+                <p>React Native application development. <br /> 
+                Environment setup using JDK-21, variable pathing and execution policy bypassing. <br /> 
+                Environment building using Expo, Metro, Yarn, Chocolatey, Gradle, HAXM, Android Studio Koala. <br /> 
+                Mixpanel data tracking architecture integration and routing setup. <br />
+                Component generation and design. QA application testing.</p>
             </div>
 
             {/* CNN */}
@@ -97,7 +102,6 @@ const Timeline = () => {
                 
                 <div className="timeline-item">
                     <h3 className=".title">Left AI testing development team</h3>
-                    <p>Here's a sentence.</p>
                 </div>
 
 {/* CNN */}
@@ -119,7 +123,6 @@ const Timeline = () => {
     
             <div className="timeline-item">
                     <h3 className=".title">Left Rogue One Development team</h3>
-                    <p>Here's a sentence.</p>
                 </div>
 
             {/* CNN */}
@@ -142,7 +145,7 @@ const Timeline = () => {
                 
                 <div className="timeline-item">
                     <h3 className=".title">Joined AI testing development team</h3>
-                    <p>Here's a sentence.</p>
+                    <p>CNN AI manual testing and shadowing testing automation.</p>
                 </div>
 
             {/* CNN */}
@@ -163,7 +166,7 @@ const Timeline = () => {
 
             <div className="timeline-item">
                 <h3 className=".title">Joined Rogue One Development team</h3>
-                <p>Job title and description.</p>
+                <p>CNN internal application library UI development, maintenance and debugging.</p>
             </div>
 
             {/* Georgia Tech end*/}
@@ -184,12 +187,11 @@ const Timeline = () => {
 
             <div className="sidebyside">
                 <div className="timeline-item">
-                    <h3 className=".title">Graduated Georgia Tech with Full Stack Flex Web Development certification</h3>
-                    <p>Here's a sentence.</p>
+                    <h3 className=".title">Graduated from Georgia Institute of Technology</h3>
+                    <p>Certified Full Stack Flex Web Developer with a final grade of 96%</p>
                 </div>
                 <div className="timeline-item">
                     <h3 className=".title">Left StarTech Development Team</h3>
-                    <p>Here's a sentence.</p>
                 </div>
             </div>
 
@@ -211,11 +213,11 @@ const Timeline = () => {
 
             <div className="sidebyside">
                 <div className="timeline-item">
-                    <h3 className=".title">Started Full Stack Flex Web Development certification at Georgia Tech</h3>
+                    <h3 className=".title">Started Full Stack Flex Web Development certification at Georgia Institute of Technology</h3>
                 </div>
                 <div className="timeline-item">
                     <h3 className=".title">Joined StarTech CNN development team shadowing back-end</h3>
-                    <p>Here's a sentence.</p>
+                    <p>CNN Atlanta video library cloud consolidation and back-end development shadowing.</p>
                 </div>
             </div>
 
@@ -237,7 +239,6 @@ const Timeline = () => {
 
             <div className="timeline-item">
                 <h3 className=".title">Remote Workforce Strategy team concludes project</h3>
-                <p>Job title and description.</p>
             </div>
 
             {/* CNN */}
@@ -258,7 +259,7 @@ const Timeline = () => {
 
             <div className="timeline-item">
                 <h3 className=".title">Joined Remote Workforce Strategy team as Technology Team Lead</h3>
-                <p>Job title and description.</p>
+                <p>Identified and determined strategy to address hybrid workflow technological needs across east coast CNN bureaus.</p>
             </div>
 
             {/* CNN */}
@@ -266,6 +267,7 @@ const Timeline = () => {
 
             <div className="middle-column">
                 <div className="line line-blue">
+                <div className="marker blue"></div>
                 </div>
                 <div className="line line-white">
                     <div className="marker white"></div>
@@ -274,7 +276,7 @@ const Timeline = () => {
 
             <div className="timeline-item">
                 <h3 className=".title">Production team pioneer remote workflow tester.</h3>
-                <p>Job title and description.</p>
+                <p>Testing out new remote workflow prior to team remote migration. Identified missing items, improvements, feasability, and patching gaps in workflow. </p>
             </div>
 
             {/* CNN */}
@@ -282,6 +284,7 @@ const Timeline = () => {
 
             <div className="middle-column">
                 <div className="line line-blue">
+                <div className="marker blue"></div>
                 </div>
                 <div className="line line-white">
                     <div className="marker white"></div>
@@ -290,7 +293,7 @@ const Timeline = () => {
 
             <div className="timeline-item">
                 <h3 className=".title">Avid Mediacentral web-based iNews application testing.</h3>
-                <p>Job title and description.</p>
+                <p>Testing internal CNN application's new web-based version. Troubleshooting and identifying issues.</p>
             </div>
 
             {/* CNN */}
@@ -309,7 +312,7 @@ const Timeline = () => {
 
             <div className="timeline-item">
                 <h3 className=".title">Joined CNN as Production Assistant</h3>
-                <p>Job title and description.</p>
+                <p>Editing and distributing news video to CNN affiliates using Premiere Pro.</p>
             </div>
         </div>
     );
