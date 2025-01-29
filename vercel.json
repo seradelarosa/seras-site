@@ -1,12 +1,12 @@
 {
     "rewrites": [
       {
-        "source": "/:path*",
-        "destination": "/index.html"
+        "source": "/tic-tac-toe/:match*",
+        "destination": "https://tic-tac-toe-lab-sigma.vercel.app/:match*"
       },
       {
-        "source": "/tic-tac-toe/:match*",
-        "destination": "https://https://tic-tac-toe-lab-sigma.vercel.app/:match*"
+        "source": "/:path*",
+        "destination": "/index.html"
       }
     ]
   }
