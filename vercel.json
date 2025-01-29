@@ -6,7 +6,7 @@
       },
       {
         "source": "/tic-tac-toe/:match*",
-        "destination": "https://tic-tac-toe-ccpp19s49-sophiadelarosas-projects.vercel.app:match*"
+        "destination": "https://https://tic-tac-toe-lab-sigma.vercel.app:match*"
       }
     ]
   }
