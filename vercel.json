@@ -13,13 +13,17 @@
         "destination": "https://moment-js-workday-scheduler.vercel.app/:match*"
       },
       {
+        "source": "/tamagotchi/:match*",
+        "destination": "https://tamagotchi-pied-one.vercel.app/:match*"
+      },
+      {
         "source": "/web-api-code-quiz/:match*",
         "destination": "https://web-api-code-quiz-murex.vercel.app/:match*"
       },
       {
         "source": "/:path*",
         "destination": "/index.html"
-      }
+      } 
     ]
   }
   
