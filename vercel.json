@@ -21,6 +21,10 @@
         "destination": "https://web-api-code-quiz-murex.vercel.app/:match*"
       },
       {
+        "source": "/shopping-simulator/:match*",
+        "destination": "https://shopping-simulator.vercel.app/:match*"
+      },
+      {
         "source": "/:path*",
         "destination": "/index.html"
       } 
